@@ -1,4 +1,4 @@
-// Sample blog data
+
 const blogs = [
     { title: "Tech Trends 2024", category: "technology", snippet: "Latest trends in tech for 2024." },
     { title: "Healthy Living Tips", category: "lifestyle", snippet: "Simple tips for a healthy lifestyle." },
@@ -6,11 +6,11 @@ const blogs = [
     { title: "Minimalism 101", category: "lifestyle", snippet: "Living more with less." },
   ];
   
-  // DOM elements
+  
   const resultsSection = document.getElementById("results");
   const darkModeToggle = document.getElementById("dark-mode-toggle");
   
-  // Apply saved dark mode preference
+  
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark");
   }
